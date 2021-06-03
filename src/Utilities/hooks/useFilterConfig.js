@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import FilterConfigBuilder from '../FilterConfigBuilder';
+import FilterConfigBuilder from './useTableTools/FilterConfigBuilder/FilterConfigBuilder';
 
 const filterValues = (activeFilters) => (
     Object.values(activeFilters).filter((value) => {
